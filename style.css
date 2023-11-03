@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+body {
+    font-family: 'Calistoga', serif;
+    text-align: center;
+    background: black;
+    color: white;
+
+}
+.main-text {
+margin-top: 250px;
+background: url(photo1.jpeg);
+font-size: 150px;
+color: transparent;
+-webkit-background-clip: text;
+animation: animate 10s infinite linear;
+}
+
+@keyframes animate {
+    from { 
+        background-position: 0 0;
+}
+to {
+        background-position: 100% 100%;
+}
+}
